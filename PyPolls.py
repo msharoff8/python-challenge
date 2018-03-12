@@ -38,7 +38,7 @@ votes=tally.values()
 percentage=[]
 for x in votes:
     percentage.append((x/votes_cast)*100)
-election_results=zip(candidate, percentage, votes)
+election_results=zip(name, percentage, votes)
 
 
 print("Election Results")
